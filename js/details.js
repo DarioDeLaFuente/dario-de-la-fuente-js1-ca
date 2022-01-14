@@ -27,7 +27,10 @@ function createDetails(details) {
           <div class="details"> Gender: ${details.gender}</div>
           <div class="details"> Species: ${details.species}</div>
           <div class="details"> Status: ${details.status}</div>
-          <div class="details"> Last known location: ${details.location.name}</div>
+          <div class="details"> 
+          <p>Last known location:</p>
+          ${details.location.name}
+          </div>
           <div class="details"> Created: ${details.created}</div>
       </div>`;
 }

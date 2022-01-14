@@ -90,7 +90,6 @@ body {
 }
 
 .character-details {
-    display: grid;
     border: solid 1px #5c4;
     padding: 5px;
 }
