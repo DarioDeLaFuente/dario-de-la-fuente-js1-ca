@@ -22,7 +22,7 @@ function createDetails(details) {
   document.title = details.name;
   detailsResultConteiner.innerHTML = `
       <div class="character-details">
-          <div> <img src="${details.image}"/> </div>
+          <div> <img src="${details.image}" alt="Image of Character"/> </div>
           <div class="details"> Name: ${details.name}</div>
           <div class="details"> Gender: ${details.gender}</div>
           <div class="details"> Species: ${details.species}</div>

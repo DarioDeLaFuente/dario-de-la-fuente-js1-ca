@@ -21,7 +21,7 @@ async function getRickAndMorty() {
           <div></div>
         </div>
           </div>
-          <div> <img src="${resultfacts[i].image}"/> </div>
+          <div> <img src="${resultfacts[i].image}"/ alt="Image of Character"> </div>
           <div class="character-title"> ${resultfacts[i].name}</div>
           <div> Species: ${resultfacts[i].species}</div>
           <a href="details.html?id=${resultfacts[i].id}" class="button">Details</a>
